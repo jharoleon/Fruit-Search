@@ -1,0 +1,58 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background: #2f2d26;
+}
+
+input {
+ height: 40px;
+ border: 3;
+ }
+
+.search-container {
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  width: 600px;
+  background: #fff;
+  margin: 0;
+  border-radius:0;
+}
+.search-container input {
+    width: 600px;
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 0;
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  margin: 0;
+}
+ul.has-suggestions {
+  border-top: 1px solid #999
+  padding: 15px 10px
+}
+ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+ul li:hover {
+  background: rgb(36, 42, 39);
+  color: rgb(206, 206, 206);
+}
+
+input {
+   /* TODO */
+}
